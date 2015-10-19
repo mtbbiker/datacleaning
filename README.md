@@ -8,7 +8,7 @@ Course project for the Getting and cleaning Data course
 3. Provide a script that when executed will provide the tidy data set.
 
 ###Testing the the data file in R
-Follow the following steps to import/read the text file (exported version of the cleaned data file) in R to be able to view the correctness of the data, this at the same time will help to view if the object of the course was reached
+Follow the following steps to import/read the text file (exported version of the cleaned data file) in R to be able to view the correctness of the data, this at the same time will help to view if the object of the course was reached. The approach follows some of the ideas discussed by an article by Hadley Wickham (See sources below)
 
 1. Create a working directory for testing the R analysis script.
 2. Download and extract the data files from the lingk provided.
@@ -26,3 +26,4 @@ Executing the script, it creates a new wide tidy dataset that
 
 ##Sources
 Codebook Template used from work done by :https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41
+Link to Hadley Wickham's article about tidying data. http://vita.had.co.nz/papers/tidy-data.pdf
