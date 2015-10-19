@@ -49,7 +49,7 @@ Some information on the variable including:
 If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
 
 ##Sources
-Sources you used if any, otherise leave out.
+Codebook Template used from work done by :https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41
 
 ##Annex
 If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
