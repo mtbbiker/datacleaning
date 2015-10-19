@@ -20,6 +20,9 @@ Follow the following steps to import/read the text file (exported version of the
 8. Now to test the data, execute the following commandin R )or R studio) to read the "tidydata.txt" into a Datatable.    data <- read.table(file_path, header = TRUE) Where "file_path" points to the directory where the tidydata.txt is       stored.
   View(data)
 
+###What the script does
+Executing the script, it creates a new wide tidy dataset that
+
 
 ##Sources
 Codebook Template used from work done by :https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41
