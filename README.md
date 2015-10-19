@@ -21,7 +21,11 @@ Follow the following steps to import/read the text file (exported version of the
   View(data)
 
 ###What the script does
-Executing the script, it creates a new wide tidy dataset that
+Executing the script, it creates a new wide tidy dataset that has the following characteristics:
+ ####Tidy data satisfies three conditions:
+  1. Each variable forms a column
+  2. Each observation forms a row
+  3. Each type of observational unit forms a table (in this case tidydata.txt)
 
 
 ##Sources
