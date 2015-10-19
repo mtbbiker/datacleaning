@@ -16,7 +16,9 @@ Follow the following steps to import/read the text file (exported version of the
 4. Set your working directory to the directory where the data was copied and extracted (from item 2)
 5. Download the run_analysis.R from the git Repo (https://github.com/mtbbiker/datacleaning/blob/master/run_analysis.R)
 6. Change on the first line of the "run_analysis.R" the Path to where you extracted the Data
-7. Load the script in R (or RStudio) (source("run_analysis.R")). The script will set the Paths to the Data directory, and create a Tidy data set that is wriiten to a file in your Data directory, the file will benamed tidydaya.txt
+7. Load the script in R (or RStudio) (source("run_analysis.R")). The script will set the Paths to the Data directory, and create a Tidy data set that is wriiten to a file in your Data directory, the file will benamed tidydata.txt
+8. Now to test the data, execute the following commandin R )or R studio) to read the "tidydata.txt" into a Datatable.    data <- read.table(file_path, header = TRUE) Where "file_path" points to the directory where the tidydata.txt is       stored.
+  View(data)
 
 
 ##Sources
