@@ -9,11 +9,13 @@ Course project for the Getting and cleaning Data course
 
 ###Testing the the data file in R
 Follow the following steps to import/read the text file (exported version of the cleaned data file) in R to be able to view the correctness of the data, this at the same time will help to view if the object of the course was reached
+
 1. Create a working directory for testing the R analysis script.
 2. Download and extract the data files from the lingk provided.
 3. Open R (Or R studio) 
 4. Set your working directory to the directory where the data was copied and extracted (from item 2)
-5. Download the run_analysis.R from the git Repo
+5. Download the run_analysis.R from the git Repo (https://github.com/mtbbiker/datacleaning/blob/master/run_analysis.R)
+6. Load the cript in R (or RStudio) (source("run_analysis.R"))
 
 
 ##Sources
