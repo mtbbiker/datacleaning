@@ -8,7 +8,7 @@ output:
 ---
 
 ## Project Description
-This project creates a subset of the training and testing data that was recorded from the experiment to record activity data for 30 subjects. "This describe how a tidy data set was created"
+This project creates a subset of the training and testing data that was recorded from the experiment to record activity data for 30 subjects. The Signal data was ignored as the project only requires that the measured data should be cleaned and presented.
 
 ##Study design and data processing
 
