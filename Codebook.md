@@ -8,12 +8,19 @@ output:
 ---
 
 ## Project Description
-This describe how a tidy data set was created
+This project creates a subset of the training and testing data that was recorded from the experiment to record activity data for 30 subjects. "This describe how a tidy data set was created"
 
 ##Study design and data processing
 
 ###Collection of the raw data
-Description of how the data was collected.
+The initial raw data was collected from the Accelerometer and gyroscope from subjects (19-48 years) wearing a smartphone (samsung Galaxy SII). Each person performed the following activities:
+1. Walking.
+2. Walking a flight od stairs.
+3. Walking down a flight of stairs.
+4. Sitting stationary
+5. Laying down
+
+The original data sample was grouped in a training (70%) and a test set (30%). The orginal Signal data is omitted for this project as we are only interested in the measured data. The dataset created by this project is a combination (merged) set of the testing and the training data.
 
 ###Notes on the original (raw) data 
 Some additional notes (if avaialble, otherwise you can leave this section out).
