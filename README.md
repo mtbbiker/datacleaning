@@ -23,7 +23,7 @@ Follow the following steps to import/read the text file (exported version of the
 ###What the script does
 Executing the script, it creates a new wide tidy dataset that has the following characteristics:
  ####Tidy data satisfies three conditions:
-  1. Each variable forms a column
+  1. Each variable forms a column, a 3-axis Accelremoter and Gyroscope where used to measure data in 3 dimensions. For this example each dimension (X,Y,Z) as considered a variable. Melting the data into columns could potentialy created NA values.
   2. Each observation forms a row
   3. Each type of observational unit forms a table (in this case tidydata.txt)
 
