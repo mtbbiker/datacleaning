@@ -53,6 +53,7 @@ The following steps were completed (The ReadMe file also provide HowTo informati
 General description of the file including:
  - Dimensions: 83 variables and 35 observations
  - Summary of the data
+ ---
  activity    subject      TimedomainBodyAccelerationmeanX TimedomainBodyAccelerationmeanY
  LAYING            :6   Min.   : 1.00   Min.   :0.2423                  Min.   :-0.03166               
  SITTING           :6   1st Qu.: 8.50   1st Qu.:0.2727                  1st Qu.:-0.01896               
@@ -357,7 +358,8 @@ General description of the file including:
  3rd Qu.: NA   3rd Qu.:22.50  
  Max.   : NA   Max.   :30.00  
  NA's   :35
- 
+---
+
 The following table relates the names used as prefix for the
 variables names present in the aggregated data set for mean() and std(). (XYZ) denotes three variables, one for each axis and is therefore not repeated to keep the table short.
 
