@@ -358,87 +358,46 @@ General description of the file including:
  Max.   : NA   Max.   :30.00  
  NA's   :35
  
-TimedomainBodyAccelerationmeanX                                 : num  
-TimedomainBodyAccelerationmeanY                                 : num
-TimedomainBodyAccelerationmeanZ                                 : num
-TimedomainGravityAccelerationmeanX                              : num
-TimedomainGravityAccelerationmeanY                              : num
-TimedomainGravityAccelerationmeanZ                              : num
-TimedomainBodyAccelerationJerkmeanX                             : num
-TimedomainBodyAccelerationJerkmeanY                             : num
-TimedomainBodyAccelerationJerkmeanZ                             : num
-TimedomainBodyAngularSpeedmeanX                                 : num
-TimedomainBodyAngularSpeedmeanY                                 : num
-TimedomainBodyAngularSpeedmeanZ                                 : num
-TimedomainBodyAngularAccelerationmeanX                          : num
-TimedomainBodyAngularAccelerationmeanY                          : num
-TimedomainBodyAngularAccelerationmeanZ                          : num
-TimedomainBodyAccelerationMagnitudemean                         : num
-TimedomainGravityAccelerationMagnitudemean                      : num
-TimedomainBodyAccelerationJerkMagnitudemean                     : num
-TimedomainBodyAngularSpeedMagnitudemean                         : num
-TimedomainBodyAngularAccelerationMagnitudemean                  : num
-FrequencydomainBodyAccelerationmeanX                            : num
-FrequencydomainBodyAccelerationmeanY                            : num
-FrequencydomainBodyAccelerationmeanZ                            : num
-FrequencydomainBodyAccelerationmeanFreqX                        : num
-FrequencydomainBodyAccelerationmeanFreqY                        : num
-FrequencydomainBodyAccelerationmeanFreqZ                        : num
-FrequencydomainBodyAccelerationJerkmeanX                        : num
-FrequencydomainBodyAccelerationJerkmeanY                        : num
-FrequencydomainBodyAccelerationJerkmeanZ                        : num
-FrequencydomainBodyAccelerationJerkmeanFreqX                    : num
-FrequencydomainBodyAccelerationJerkmeanFreqY                    : num
-FrequencydomainBodyAccelerationJerkmeanFreqZ                    : num
-FrequencydomainBodyAngularSpeedmeanX                            : num
-FrequencydomainBodyAngularSpeedmeanY                            : num
-FrequencydomainBodyAngularSpeedmeanZ                            : num
-FrequencydomainBodyAngularSpeedmeanFreqX                        : num
-FrequencydomainBodyAngularSpeedmeanFreqY                        : num
-FrequencydomainBodyAngularSpeedmeanFreqZ                        : num
-FrequencydomainBodyAccelerationMagnitudemean                    : num
-FrequencydomainBodyAccelerationMagnitudemeanFrequency           : num
-FrequencydomainBodyBodyAccelerationJerkMagnitudemean            : num
-FrequencydomainBodyBodyAccelerationJerkMagnitudemeanFrequency   : num
-FrequencydomainBodyBodyAngularSpeedMagnitudemean                : num
-FrequencydomainBodyBodyAngularSpeedMagnitudemeanFrequency       : num
-FrequencydomainBodyBodyAngularAccelerationMagnitudemean         : num
-FrequencydomainBodyBodyAngularAccelerationMagnitudemeanFrequency: num
-TimedomainBodyAccelerationstdX                                  : num
-TimedomainBodyAccelerationstdY                                  : num
-TimedomainBodyAccelerationstdZ                                  : num
-TimedomainGravityAccelerationstdX                               : num
-TimedomainGravityAccelerationstdY                               : num
-TimedomainGravityAccelerationstdZ                               : num
-TimedomainBodyAccelerationJerkstdX                              : num
-TimedomainBodyAccelerationJerkstdY                              : num
-TimedomainBodyAccelerationJerkstdZ                              : num
-TimedomainBodyAngularSpeedstdX                                  : num
-TimedomainBodyAngularSpeedstdY                                  : num
-TimedomainBodyAngularSpeedstdZ                                  : num
-TimedomainBodyAngularAccelerationstdX                           : num
-TimedomainBodyAngularAccelerationstdY                           : num
-TimedomainBodyAngularAccelerationstdZ                           : num
-TimedomainBodyAccelerationMagnitudestd                          : num
-TimedomainGravityAccelerationMagnitudestd                       : num
-TimedomainBodyAccelerationJerkMagnitudestd                      : num
-TimedomainBodyAngularSpeedMagnitudestd                          : num
-TimedomainBodyAngularAccelerationMagnitudestd                   : num
-FrequencydomainBodyAccelerationstdX                             : num
-FrequencydomainBodyAccelerationstdY                             : num
-FrequencydomainBodyAccelerationstdZ                             : num
-FrequencydomainBodyAccelerationJerkstdX                         : num
-FrequencydomainBodyAccelerationJerkstdY                         : num
-FrequencydomainBodyAccelerationJerkstdZ                         : num
-FrequencydomainBodyAngularSpeedstdX                             : num
-FrequencydomainBodyAngularSpeedstdY                             : num
-FrequencydomainBodyAngularSpeedstdZ                             : num
-FrequencydomainBodyAccelerationMagnitudestd                     : num
-FrequencydomainBodyBodyAccelerationJerkMagnitudestd             : num
-FrequencydomainBodyBodyAngularSpeedMagnitudestd                 : num
-FrequencydomainBodyBodyAngularAccelerationMagnitudestd          : num
-activities                                                      : Factor w/ 6 levels 
-subjects                                                        : int  
+The following table relates the names used as prefix for the
+variables names present in the aggregated data set for mean() and std(). (XYZ) denotes three variables, one for each axis and is therefore not repeated to keep the table short.
+
+Measurements for mean, all values are of class num
+
+Description                                  	| Time domain                                 	| Frequency domain
+------------------------------------------------| ------------------------------------------- 	| ----------------------------------------------------
+Body Acceleration (XYZ dimensions)    		| TimedomainBodyAccelerationmean(XYZ)         	| FrequencydomainBodyAccelerationmean(XYZ)
+Gravity Acceleration (XYZ dimensions) 		| TimedomainGravityAccelerationmean(XYZ)        | 
+Body Acceleration Jerk (XYZ dimensions) 	| TimedomainBodyAccelerationJerkmean(XYZ)       | FrequencydomainBodyAccelerationJerkmean(XYZ)
+Body Angular Speed (XYZ dimensions)  		| TimedomainBodyAngularSpeedmean(XYZ)           | FrequencydomainBodyAngularSpeedmean(XYZ)
+Body Angular Acceleration (XYZ dimensions)	| TimedomainBodyAngularAccelerationmean(XYZ)    |
+Body Acceleration Magnitude           		| TimedomainBodyAccelerationMagnitudemean       | FrequencydomainBodyAccelerationMagnitudemean
+Gravity Acceleration Magnitude        		| TimedomainGravityAccelerationMagnitudemean    |
+Body Acceleration Jerk Magnitude      		| TimedomainBodyAccelerationJerkMagnitudemean   | FrequencydomainBodyBodyAccelerationJerkMagnitudemean
+Body Angular Speed Magnitude          		| TimedomainBodyAngularSpeedMagnitudemean       | FrequencydomainBodyBodyAngularSpeedMagnitudemean
+Body Angular Acceleration Magnitude   		| TimedomainBodyAngularAccelerationMagnitudemean| FrequencydomainBodyBodyAngularAccelerationMagnitudemean
+
+Measurements for standard deviation, all vlaues are of class num
+
+Description					| Time domain					| Frequency domain
+------------------------------------------------|-----------------------------------------------|--------------------------------------------------------
+Body Acceleration (XYZ dimensions) 		| TimedomainBodyAccelerationstd(XYZ)		| FrequencydomainBodyAccelerationstd(XYZ)
+Gravity Acceleration (XYZ dimensions)		| TimedomainGravityAccelerationstd(XYZ)		| 
+Body Acceleration Jerk (XYZ dimensions)		| TimedomainBodyAccelerationJerkstd(XYZ)	| FrequencydomainBodyAccelerationJerkstd(XYZ)	
+Body Angular Speed (XYZ dimensions		| TimedomainBodyAngularSpeedstd(XYZ)		| FrequencydomainBodyAngularSpeedstd(XYZ)
+Body Angular Acceleration (XYZ dimensions)	| TimedomainBodyAngularAccelerationstd(XYZ)	|
+Body Acceleration Magnitude 			| TimedomainBodyAccelerationMagnitudestd	| FrequencydomainBodyAccelerationMagnitudestd
+Gravity Acceleration Magnitude			| TimedomainGravityAccelerationMagnitudestd	|
+Body Acceleration Jerk Magnitude		| TimedomainBodyAccelerationJerkMagnitudestd	| FrequencydomainBodyBodyAccelerationJerkMagnitudestd
+Body Angular Speed Magnitude			| TimedomainBodyAngularSpeedMagnitudestd	| FrequencydomainBodyBodyAngularSpeedMagnitudestd
+Body Angular Acceleration Magnitude		| TimedomainBodyAngularAccelerationMagnitudestd	| FrequencydomainBodyBodyAngularAccelerationMagnitudestd
+
+
+Activities and Subject fields
+
+Name		| Description 		| class
+----------------|-----------------------|----------------
+activities	| Activity measured	| Factor w/ 6 levels 
+subjects	| Subject id		| int  
 
 
 ##Sources
